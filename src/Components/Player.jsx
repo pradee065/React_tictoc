@@ -7,6 +7,7 @@ export default function Player({initialName, symbol}){
     function hanldeEditClick(){
         setEditing((editing) => !editing);
     }
+    
 
     function handleChange(event){
         setPlayerName(event.target.value);
